@@ -7,6 +7,16 @@ const APP_DESCRIPTION =
 
 const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9);
 
-export { APP_NAME, APP_SLOGAN, APP_DESCRIPTION, PAGE_SIZE };
+const FREE_SHIPPING_MIN_PRICE = Number(
+  process.env.FREE_SHIPPING_MIN_PRICE || 35
+);
+
+export {
+  APP_NAME,
+  APP_SLOGAN,
+  APP_DESCRIPTION,
+  PAGE_SIZE,
+  FREE_SHIPPING_MIN_PRICE,
+};
 
 
