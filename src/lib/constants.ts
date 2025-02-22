@@ -5,4 +5,8 @@ const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   "An ecommerce app with Next.js, Tailwind CSS, and TypeScript.";
 
-export { APP_NAME, APP_SLOGAN, APP_DESCRIPTION };
+const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9);
+
+export { APP_NAME, APP_SLOGAN, APP_DESCRIPTION, PAGE_SIZE };
+
+
